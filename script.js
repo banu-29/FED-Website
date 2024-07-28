@@ -11,10 +11,10 @@ document.addEventListener('DOMContentLoaded', () => {
         messageBox.style.display = 'block';
         setTimeout(() => {
             messageBox.style.display = 'none';
-        }, 3000); // Hide after 3 seconds
+        }, 3000);
     }
  contactLink.addEventListener('click', (e) => {
-        e.preventDefault(); // Prevent default anchor behavior
+        e.preventDefault(); 
         showMessage('Dial: 1234567890');
     });
 });
