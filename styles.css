@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+   }
+header {
+    background-image: url('World\ Map\ \(1\).svg');
+    background-size: cover;
+    color: #09ff09;
+    padding: 5px ;
+}
+.message-box {
+    position: fixed;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: rgba(14, 13, 13, 0.8);
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    display: none; /* Initially hidden */
+    z-index: 1000;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:  20px;
+}
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+.nav-links li {
+    margin:  15px;
+}
+.nav-links a {
+    color: #ec0606;
+    text-decoration: none;
+}
+.menu-toggle {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+}
+.menu-toggle .bar {
+    width: 25px;
+    height: 3px;
+    background: #fff;
+    margin: 4px ;
+}
+.products {
+    padding: 20px;
+    text-align: center;
+    
+    background-image: url('Snow.svg');
+}
+.product-card {
+    display: inline-block;
+    margin: 15px;
+    border: 1px solid #eedcdc;
+    border-radius: 5px;
+    padding: 10px;
+    width: 100px;
+}
+.product-card img {
+    max-width: 100%;
+    border-bottom: 1px solid #f3faf2f8;
+    padding-bottom: 10px;
+}
+button{
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+    border: none;
+}
+button:hover{
+    background-color:rgb(80, 10, 243);
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px ;
+}
+
+
+
+
